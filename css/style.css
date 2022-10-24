@@ -63,7 +63,9 @@ body {
     color: var(--main-title-color);
 }
 
-
+.nav-list .current {
+    color: var(--header-color-hover);
+}
 
 
 .nav-link:hover, .nav-link:focus{
@@ -189,8 +191,13 @@ body {
 /*-------------FOOTER---------------*/
 .contact {
     background: var(--background-footer-color);
+    font-style: normal;
 }
+
+address 
 .contact-logo, .contact-second-logo {
+    input: italic;
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
@@ -198,12 +205,16 @@ body {
     color: var(--first-logo-color);
     text-decoration: none;
 }
+    
 .contact-second-logo {
     color: var(--footer-inform-color);
 }
 
 
 .contact-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
