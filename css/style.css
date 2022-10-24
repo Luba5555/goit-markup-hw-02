@@ -194,10 +194,10 @@ body {
     font-style: normal;
 }
 
-address 
+
 .contact-logo, .contact-second-logo {
-    input: italic;
     font-family: 'Raleway';
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
