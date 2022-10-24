@@ -125,3 +125,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+*.md
+*.jpg
+goit-markup-hw-02/images/nik.jpg
+*.css
+goit-markup-hw-02/css/style.css
+goit-markup-hw-02/images/box1.jpg
+goit-markup-hw-02/images/box2.jpg
