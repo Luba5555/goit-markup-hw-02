@@ -1,17 +1,17 @@
-:root{
+:root {
     --main-title-color: #212121;
-    --desc-color: #757575;
-    --header-color-hover: #2196F3;
+    --main-desc-color: #757575;
     --header-inform-color: #757575;
-    --second-logo-color: #000000;
+    --secondary-logo-color: #000000;
+    --header-color-hover: #2196F3;
     --first-logo-color: #2196F3;
+    --btn-color: #2196F3;
     --logo-hover: #FFFFFF;
     --footer-inform-color: #FFFFFF;
     --background-color: #FFFFFF;
-    --background-team-color: #F5F4FA;
     --banner-text-color: #FFFFFF;
-    --banner-btn-color: #2196F3;
-    --banner-btn-color-hover: #188CE8;
+    --background-team-color: #F5F4FA;
+    --btn-color-hover: #188CE8;
     --background-banner-color: #2F303A;
     --background-footer-color: #2F303A;
 }
@@ -19,7 +19,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-style: normal; 
     font-weight: 400;
-    color: var(--desc-color);
+    color: var(--main-desc-color);
     background: var(--background-color);
 }
 
@@ -45,7 +45,7 @@ body {
     
     }
 .logo-header {
-    color: var(--second-logo-color);
+    color: var(--secondary-logo-color);
 }
 
 .logo:hover, .logo:focus{
@@ -62,6 +62,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-title-color);
 }
+
 
 
 
@@ -100,7 +101,7 @@ body {
     color: var(--banner-text-color);
 }
 .banner-btn {
-    background: var(--banner-btn-color);
+    background: var(--btn-color);
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -113,7 +114,7 @@ body {
     cursor: pointer;
 }
 .banner-btn:hover, .banner-btn:focus{
-    color: var(--banner-btn-color-hover);
+    color: var(--btn-color-hover);
 }
 
 /* Особливості */
@@ -220,3 +221,57 @@ body {
 }
 
 /*-------------FOOTER---------------*/
+
+
+/*------------PORTFOLIO-------------*/
+/*------ФІЛЬТРИ-------------*/
+.filter-total-btn {
+    background: var(--btn-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--banner-text-color);
+    cursor: pointer;
+    border: none;
+}
+.filter-total-btn:hover, .filter-total-btn:focus{
+    color: var(--btn-color-hover);
+}
+
+
+.filter-btn {
+    background: var(--background-team-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+    cursor: pointer;
+    border: none;
+}
+
+/*------ФІЛЬТРИ-------------*/
+
+/*------ПРОЕКТИ-------------*/
+.portfolio-list{
+    border: 1px solid #EEEEEE;
+}
+
+.portfolio-subject {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+    color: var(--main-title-color);
+}
+.portfolio-desc {
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+}
+/*------ПРОЕКТИ-------------*/
