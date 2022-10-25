@@ -17,8 +17,8 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-    font-style: normal; 
-    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     color: var(--main-desc-color);
     background: var(--background-color);
 }
@@ -40,7 +40,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
-    letter-spacing: 0.03em;
     color: var(--first-logo-color)
     
     }
@@ -57,7 +56,6 @@ body {
 
 .nav-link {
     font-weight: 500;
-    font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: var(--main-title-color);
@@ -74,7 +72,6 @@ body {
 
 .header-tel, .header-mail {
     font-weight: 500;
-    font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: var(--header-inform-color);
@@ -134,18 +131,13 @@ body {
 }
 
 .specialties-title {
-    font-weight: 700;
-    font-size: 14px;
     line-height: calc(16 / 14);
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-title-color);
 }
 .specialties-desc {
-    font-size: 14px;
     line-height: calc(24 / 14);
-    letter-spacing: 0.03em;
-    }
+}
 
 /*  Чим ми займаємося */
 /*.work-title {
@@ -169,7 +161,6 @@ body {
     font-size: 36px;
     line-height: calc(42 /36);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--main-title-color);
 }
 .team-subject {
@@ -177,15 +168,13 @@ body {
     font-size: 16px;
     line-height: calc(19 / 16);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--main-title-color);
 }
 .team-desc {
     font-size: 16px;
     line-height: calc(19 / 16);
     text-align: center;
-    letter-spacing: 0.03em;
-    }
+}
 /*---------------MAIN----------------*/
 
 /*-------------FOOTER---------------*/
@@ -201,7 +190,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
-    letter-spacing: 0.03em;
     color: var(--first-logo-color);
     text-decoration: none;
 }
@@ -212,12 +200,7 @@ body {
 
 
 .contact-item {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: calc(24 / 14);
-    letter-spacing: 0.03em;
     color: var(--footer-inform-color);
     text-decoration: none;
 }
@@ -243,7 +226,6 @@ body {
     font-size: 16px;
     line-height: calc(26 / 16);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--banner-text-color);
     cursor: pointer;
     border: none;
@@ -260,7 +242,6 @@ body {
     font-size: 16px;
     line-height: calc(26 / 16);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--main-title-color);
     cursor: pointer;
     border: none;
@@ -283,6 +264,5 @@ body {
 .portfolio-desc {
     font-size: 16px;
     line-height: calc(30 / 16);
-    letter-spacing: 0.03em;
 }
 /*------ПРОЕКТИ-------------*/
