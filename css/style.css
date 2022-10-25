@@ -209,6 +209,15 @@ body {
 .contact-item:hover, .contact-item:focus {
     color: var(--header-color-hover);
 }
+.contact-item-adr {
+    font-style: normal;
+    line-height: calc(24 / 14);
+    color: var(--footer-inform-color);
+    text-decoration: none;
+}
+.contact-item-adr:hover, .contact-item-adr:focus {
+    color: var(--header-color-hover);
+}
 .contact-logo:hover, .contact-logo:focus {
     color: var(--logo-hover);
 }
