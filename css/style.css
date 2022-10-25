@@ -200,9 +200,11 @@ body {
 
 
 .contact-item {
+    font-style: normal;
     line-height: calc(24 / 14);
     color: var(--footer-inform-color);
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
 }
 .contact-item:hover, .contact-item:focus {
     color: var(--header-color-hover);
@@ -245,6 +247,10 @@ body {
     color: var(--main-title-color);
     cursor: pointer;
     border: none;
+}
+.filter-btn:hover, .filter-btn:focus{
+    color: var(--banner-text-color);
+    background-color: var(--btn-color-hover);
 }
 
 /*------ФІЛЬТРИ-------------*/
