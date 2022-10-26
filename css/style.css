@@ -131,6 +131,7 @@ body {
 }
 
 .specialties-title {
+    font-size: 14px;
     line-height: calc(16 / 14);
     text-transform: uppercase;
     color: var(--main-title-color);
@@ -241,9 +242,9 @@ body {
     cursor: pointer;
     border: none;
 }
-.filter-total-btn:hover, .filter-total-btn:focus{
+/*.filter-total-btn:hover, .filter-total-btn:focus{
     color: var(--btn-color-hover);
-}
+}*/
 
 
 .filter-btn {
